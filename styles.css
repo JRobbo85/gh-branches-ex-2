@@ -27,7 +27,9 @@
 /* =================== Header (including nav) ================== */
 
 .container-title {
-
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
 }
 
 .header-nav {
@@ -35,6 +37,9 @@
 }
 
 .header-nav-ul {
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 60px;
 
 }
 
