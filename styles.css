@@ -16,7 +16,8 @@
 
 .section-main {
     height: 100vh;
-    background: red;
+    background: wheat;
+    
 }
 
 .section-bottom-footer {
@@ -49,17 +50,32 @@
 }
 
 .footer-nav-ul {
-
+    
 }
 
 /* =================== Home (index.html) ================== */
 
-.container-left-pane {
+.mainContain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10vh;
+    
+}
 
+.container-left-pane {
+    font-size: 40px;
+    display: flex;
+    border-style: ridge;
+    border-width: 1vh;
 }
 
 .container-right-pane {
-
+    font-size: 40px;
+    display: flex;
+    border-style: ridge;
+    border-width: 1vh;
 }
 
 /* =================== About ================== */
